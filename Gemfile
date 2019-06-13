@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '2.5.3'
+ruby '2.6.3'
 
 # QUESTION: Do we need to lock them to specific versions?
 gem 'awesome_print', require: false
