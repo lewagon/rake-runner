@@ -8,14 +8,14 @@ end
 ruby '2.6.3'
 
 # QUESTION: Do we need to lock them to specific versions?
-gem 'awesome_print', require: false
-gem 'faker'
-gem 'nokogiri'
-gem 'pry-byebug'
-gem 'rest-client'
-gem 'rspec-rails'
-gem 'rubocop'
+gem 'awesome_print', '~> 1.8', require: false
+gem 'faker', '~> 2.1'
+gem 'nokogiri', '~> 1.10'
+gem 'pry-byebug', '~> 3.7'
+gem 'rest-client', '~> 2.0'
+gem 'rspec-rails', '~> 3.8'
+gem 'rubocop', '~> 0.74'
 gem 'sinatra', '~> 2.0', '>= 2.0.2', require: false
 gem 'sinatra-contrib', '~> 2.0', '>= 2.0.2', require: false
-gem 'sqlite3'
-gem 'activerecord', '~> 5.2'
+gem 'sqlite3', '~> 1.4'
+gem 'activerecord', '~> 6.0'

@@ -29,5 +29,6 @@ Temporary Items
 .apdisk
 
 # VIM
-
 .swp
+
+.DS_Store
