@@ -14,7 +14,7 @@ gem 'nokogiri', '~> 1.10'
 gem 'pry-byebug', '~> 3.7'
 gem 'rest-client', '~> 2.0'
 gem 'rspec-rails', '~> 3.8'
-gem 'rubocop', '~> 0.74'
+gem 'rubocop', '~> 0.80.1'
 gem 'sinatra', '~> 2.0', '>= 2.0.2', require: false
 gem 'sinatra-contrib', '~> 2.0', '>= 2.0.2', require: false
 gem 'sqlite3', '~> 1.4'
