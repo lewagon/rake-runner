@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y sqlite3 libsqlite3-dev curl gnupg \
     && rm -rf /var/lib/apt/lists/*
 ENV FULLSTACK_FOLDER /fullstack-challenges
 WORKDIR $FULLSTACK_FOLDER
-RUN curl -sL https://deb.nodesource.com/setup_11.x  | bash -
+RUN curl -sL https://deb.nodesource.com/setup_14.x  | bash -
 RUN apt-get -y install nodejs
 
 COPY Gemfile $FULLSTACK_FOLDER/Gemfile
