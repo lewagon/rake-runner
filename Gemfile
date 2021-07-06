@@ -7,7 +7,6 @@ end
 
 ruby '2.7.3'
 
-# QUESTION: Do we need to lock them to specific versions?
 gem 'awesome_print', '~> 1.8', require: false
 gem 'faker', '~> 2.1'
 gem 'nokogiri', '~> 1.10'
