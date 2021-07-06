@@ -19,7 +19,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
+          username: lewagon-autobot
           password: ${{ secrets.AUTOBOT_GHCR_TOKEN }}
       - name: Build and push
         id: docker_build
