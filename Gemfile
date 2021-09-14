@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '2.6.6'
+ruby '2.7.3'
 
 gem 'awesome_print', '~> 1.8', require: false
 gem 'faker', '~> 2.1'
