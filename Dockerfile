@@ -1,5 +1,5 @@
-FROM ruby:2.7.3
-LABEL maintainer="andrey@lewagon.org"
+FROM ruby:2.7.4
+LABEL maintainer="seb@lewagon.org"
 
 # make the "en_US.UTF-8" locale so ruby will be utf-8 enabled by default
 RUN apt-get update && apt-get install -y locales \
@@ -10,7 +10,7 @@ ENV LANG en_US.utf8
 # Binary dependencies for SQLite
 RUN apt-get update && apt-get install -y sqlite3 libsqlite3-dev curl gnupg \
     && rm -rf /var/lib/apt/lists/*
-ENV FULLSTACK_FOLDER /fullstack-challenges
+ENV FULLSTACK_FOLDER /workspace
 WORKDIR $FULLSTACK_FOLDER
 RUN curl -sL https://deb.nodesource.com/setup_14.x  | bash -
 RUN apt-get -y install nodejs
