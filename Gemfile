@@ -9,7 +9,7 @@ ruby '3.0.3'
 
 gem 'awesome_print', '~> 1.8', require: false
 gem 'faker', '~> 2.1'
-gem 'nokogiri', '~> 1.10'
+gem 'nokogiri', '~> 1.13'
 gem 'pry-byebug', '~> 3.7'
 gem 'rest-client', '~> 2.0'
 gem 'rspec-rails', '~> 3.8'
