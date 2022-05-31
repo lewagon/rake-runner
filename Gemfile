@@ -1,20 +1,20 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '3.0.3'
+ruby "3.0.3"
 
-gem 'awesome_print', '~> 1.8', require: false
-gem 'faker', '~> 2.1'
-gem 'nokogiri', '~> 1.13'
-gem 'pry-byebug', '~> 3.7'
-gem 'rest-client', '~> 2.0'
-gem 'rspec-rails', '~> 3.8'
-gem 'rubocop', '~> 0.91'
-gem 'sinatra', '~> 2.0', '>= 2.0.2', require: false
-gem 'sinatra-contrib', '~> 2.0', '>= 2.0.2', require: false
-gem 'sqlite3', '~> 1.4'
-gem 'activerecord', '~> 6.0'
+gem "awesome_print", "~> 1.8", require: false
+gem "faker", "~> 2.1"
+gem "nokogiri", "~> 1.13"
+gem "pry-byebug", "~> 3.7"
+gem "rest-client", "~> 2.0"
+gem "rspec-rails", "~> 3.8"
+gem "rubocop", "~> 1.30"
+gem "sinatra", "~> 2.0", ">= 2.0.2", require: false
+gem "sinatra-contrib", "~> 2.0", ">= 2.0.2", require: false
+gem "sqlite3", "~> 1.4"
+gem "activerecord", "~> 6.0"
