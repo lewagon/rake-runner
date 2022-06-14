@@ -14,7 +14,7 @@ gem "pry-byebug", "~> 3.7"
 gem "rest-client", "~> 2.0"
 gem "rspec-rails", "~> 3.8"
 gem "rubocop", "~> 1.30"
-gem "sinatra", "~> 2.0", ">= 2.0.2", require: false
-gem "sinatra-contrib", "~> 2.0", ">= 2.0.2", require: false
+gem "sinatra", "~> 2.2", require: false
+gem "sinatra-contrib", "~> 2.2", require: false
 gem "sqlite3", "~> 1.4"
 gem "activerecord", "~> 6.0"
