@@ -1,4 +1,4 @@
-FROM ruby:3.0.3
+FROM ruby:3.1.2
 LABEL maintainer="seb@lewagon.org"
 
 # make the "en_US.UTF-8" locale so ruby will be utf-8 enabled by default
