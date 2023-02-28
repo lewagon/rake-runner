@@ -18,3 +18,4 @@ gem "sinatra", "~> 2.2", require: false
 gem "sinatra-contrib", "~> 2.2", require: false
 gem "sqlite3", "~> 1.4"
 gem "activerecord", "~> 7.0"
+gem "watir", "~> 7.2"
