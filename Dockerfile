@@ -15,5 +15,8 @@ WORKDIR $FULLSTACK_FOLDER
 RUN curl -sL https://deb.nodesource.com/setup_14.x  | bash -
 RUN apt-get -y install nodejs
 
+# Binary dependencies for JS testing
+RUN apt-get -y install lsof
+
 COPY Gemfile $FULLSTACK_FOLDER/Gemfile
 RUN ["bundle", "install"]
