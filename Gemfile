@@ -8,7 +8,7 @@ end
 ruby "3.1.2"
 
 gem "awesome_print", "~> 1.8", require: false
-gem "faker", "~> 3.2"
+gem "faker", "~> 3.4"
 gem "nokogiri", "~> 1.13"
 gem "pry-byebug", "~> 3.7"
 gem "rest-client", "~> 2.0"
