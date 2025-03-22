@@ -10,6 +10,7 @@ Icon
 
 
 # Thumbnails
+.DS_Store
 ._*
 
 # Files that might appear in the root of a volume
@@ -31,4 +32,5 @@ Temporary Items
 # VIM
 .swp
 
-.DS_Store
+# NOTE(ssaunier): the Dockerfile builds from Gemfile directly
+Gemflile.lock
