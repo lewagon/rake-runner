@@ -16,5 +16,5 @@ gem "rspec-rails", "~> 3.8"
 gem "rubocop", "~> 1.74"
 gem "sinatra", "~> 2.2", require: false
 gem "sinatra-contrib", "~> 2.2", require: false
-gem "sqlite3", "~> 1.7.3"
-gem "activerecord", "~> 7.1"
+gem "sqlite3", "~> 2.8.1"
+gem "activerecord", "~> 8.1"
