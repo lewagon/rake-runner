@@ -18,3 +18,5 @@ gem "sinatra", "~> 2.2", require: false
 gem "sinatra-contrib", "~> 2.2", require: false
 gem "sqlite3", "~> 2.8.1"
 gem "activerecord", "~> 8.1"
+gem "ruby_llm", "~> 1.2.0"
+gem "dotenv"
